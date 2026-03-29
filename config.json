@@ -1,0 +1,21 @@
+{
+  "modules": {
+    "panel": { "enabled": true, "order": 1 },
+    "cockpit": { "enabled": true, "order": 2, "default_preset": "cessna-172" },
+    "checklist": { "enabled": true, "order": 3, "default_preset": "cessna-172" },
+    "scenarios": { "enabled": true, "order": 4 },
+    "debrief": { "enabled": true, "order": 5 },
+    "nav": { "enabled": true, "order": 6 },
+    "hardware": { "enabled": true, "order": 7, "default_preset": "mega-cessna172" },
+    "console": { "enabled": true, "order": 8 },
+    "logbook": { "enabled": true, "order": 9 },
+    "flight": { "enabled": true, "order": 10 },
+    "community": { "enabled": true, "order": 11 }
+  },
+  "settings": {
+    "mode": "smart",
+    "auto_check": "on",
+    "check_feedback": "on",
+    "language": "en"
+  }
+}

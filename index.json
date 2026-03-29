@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "updated": "2026-03-29",
+  "categories": {
+    "checklists": {
+      "label": "Checklists",
+      "description": "Pre-flight to shutdown procedures for any aircraft",
+      "path": "checklists"
+    },
+    "cockpit": {
+      "label": "Cockpit Layouts",
+      "description": "Touch cockpit control layouts for mobile companion",
+      "path": "cockpit"
+    },
+    "hardware": {
+      "label": "Hardware Profiles",
+      "description": "Pin mappings for Arduino and ESP32 panels",
+      "path": "hardware"
+    },
+    "scenarios": {
+      "label": "Failure Scenarios",
+      "description": "Pre-built failure training scenarios",
+      "path": "scenarios"
+    }
+  },
+  "items": [
+    {
+      "id": "cessna-172",
+      "category": "checklists",
+      "name": "Cessna 172S Skyhawk",
+      "author": "CockpitFlow",
+      "version": "1.0",
+      "aircraft": "C172S",
+      "simulator": "both",
+      "tags": ["GA", "single-engine", "piston"],
+      "file": "checklists/cessna-172.json",
+      "description": "Complete checklist for the Cessna 172S. 15 phases, 89 items. Auto-detect for X-Plane and MSFS."
+    },
+    {
+      "id": "boeing-747",
+      "category": "checklists",
+      "name": "Boeing 747-400",
+      "author": "CockpitFlow Community",
+      "version": "1.0",
+      "aircraft": "B744",
+      "simulator": "both",
+      "tags": ["heavy", "four-engine", "jet"],
+      "file": "checklists/boeing-747.json",
+      "description": "Full checklist for the Boeing 747-400. 12 phases from cockpit prep to shutdown."
+    },
+    {
+      "id": "airbus-a320",
+      "category": "checklists",
+      "name": "Airbus A320neo",
+      "author": "CockpitFlow Community",
+      "version": "1.0",
+      "aircraft": "A20N",
+      "simulator": "both",
+      "tags": ["narrowbody", "twin-engine", "jet", "fly-by-wire"],
+      "file": "checklists/airbus-a320.json",
+      "description": "Complete A320neo checklist. 16 phases including FMGC setup and Airbus-specific flows."
+    },
+    {
+      "id": "cockpit-cessna-172",
+      "category": "cockpit",
+      "name": "Cessna 172S Cockpit",
+      "author": "CockpitFlow",
+      "version": "2.0",
+      "aircraft": "C172S",
+      "simulator": "both",
+      "tags": ["GA", "touch", "gyro"],
+      "file": "cockpit/cessna-172.json",
+      "description": "Full cockpit layout: throttle quadrant, yoke (touch + gyro), gauges, switches. 12x8 grid."
+    },
+    {
+      "id": "hw-mega-cessna172",
+      "category": "hardware",
+      "name": "Arduino Mega → Cessna 172",
+      "author": "CockpitFlow",
+      "version": "1.0",
+      "aircraft": "C172S",
+      "simulator": "both",
+      "tags": ["arduino", "mega", "serial"],
+      "file": "hardware/mega-cessna172.json",
+      "description": "Complete pin mapping for Arduino Mega 2560. Throttle, mixture, switches, encoders."
+    },
+    {
+      "id": "hw-esp32-radio",
+      "category": "hardware",
+      "name": "ESP32 Radio Panel",
+      "author": "CockpitFlow",
+      "version": "1.0",
+      "aircraft": "C172S",
+      "simulator": "both",
+      "tags": ["esp32", "wifi", "radio"],
+      "file": "hardware/esp32-radio-cessna172.json",
+      "description": "WiFi radio panel with encoders for COM/NAV frequency tuning."
+    },
+    {
+      "id": "hw-nano-cessna172",
+      "category": "hardware",
+      "name": "Arduino Nano → Cessna 172",
+      "author": "CockpitFlow",
+      "version": "1.0",
+      "aircraft": "C172S",
+      "simulator": "both",
+      "tags": ["arduino", "nano", "serial", "compact"],
+      "file": "hardware/nano-cessna172.json",
+      "description": "Compact pin mapping for Arduino Nano. Basic switches and potentiometers."
+    }
+  ]
+}
