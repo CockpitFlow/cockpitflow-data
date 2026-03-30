@@ -21,6 +21,11 @@
       "label": "Failure Scenarios",
       "description": "Pre-built failure training scenarios",
       "path": "scenarios"
+    },
+    "widgets": {
+      "label": "Custom Widgets",
+      "description": "Community-created cockpit components (Web Components)",
+      "path": "widgets"
     }
   },
   "items": [
