@@ -1,7 +1,8 @@
 {
+  "id": "cessna-172-standard",
   "name": "Cessna 172S Skyhawk",
   "simulator": ["xplane"],
-  "author": "CockpitFlow",
+  "contributors": ["CockpitFlow"],
   "aircraft": "C172S",
   "version": 2,
   "grid": { "cols": 12, "rows": 8 },

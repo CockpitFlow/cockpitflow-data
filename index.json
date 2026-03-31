@@ -20,7 +20,7 @@
   },
   "items": [
     {
-      "id": "cessna-172",
+      "id": "cessna-172-standard",
       "category": "checklists",
       "name": "Cessna 172S Skyhawk",
       "author": "CockpitFlow",
@@ -28,11 +28,11 @@
       "aircraft": "C172S",
       "simulator": ["xplane", "msfs"],
       "tags": ["GA", "single-engine", "piston"],
-      "file": "checklists/cessna-172.json",
+      "file": "checklists/cessna-172-standard.json",
       "description": "Complete checklist for the Cessna 172S. 15 phases, 89 items. Auto-detect for X-Plane and MSFS."
     },
     {
-      "id": "boeing-747",
+      "id": "boeing-747-standard",
       "category": "checklists",
       "name": "Boeing 747-400",
       "author": "CockpitFlow Community",
@@ -40,11 +40,11 @@
       "aircraft": "B744",
       "simulator": ["xplane", "msfs"],
       "tags": ["heavy", "four-engine", "jet"],
-      "file": "checklists/boeing-747.json",
+      "file": "checklists/boeing-747-standard.json",
       "description": "Full checklist for the Boeing 747-400. 12 phases from cockpit prep to shutdown."
     },
     {
-      "id": "airbus-a320",
+      "id": "airbus-a320-standard",
       "category": "checklists",
       "name": "Airbus A320neo",
       "author": "CockpitFlow Community",
@@ -52,11 +52,11 @@
       "aircraft": "A20N",
       "simulator": ["xplane", "msfs"],
       "tags": ["narrowbody", "twin-engine", "jet", "fly-by-wire"],
-      "file": "checklists/airbus-a320.json",
+      "file": "checklists/airbus-a320-standard.json",
       "description": "Complete A320neo checklist. 16 phases including FMGC setup and Airbus-specific flows."
     },
     {
-      "id": "cockpit-cessna-172",
+      "id": "cockpit-cessna-172-standard",
       "category": "cockpit",
       "name": "Cessna 172S Cockpit",
       "author": "CockpitFlow",
@@ -64,7 +64,7 @@
       "aircraft": "C172S",
       "simulator": ["xplane", "msfs"],
       "tags": ["GA", "touch", "gyro"],
-      "file": "cockpit/cessna-172.json",
+      "file": "cockpit/cessna-172-standard.json",
       "description": "Full cockpit layout: throttle quadrant, yoke (touch + gyro), gauges, switches. 12x8 grid."
     },
     {

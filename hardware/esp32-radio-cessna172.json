@@ -1,10 +1,11 @@
 {
+  "id": "esp32-radio-cessna172",
   "$schema": "mapping",
   "version": 1,
   "id": "esp32-radio-cessna172",
   "name": "ESP32 Radio Panel → Cessna 172",
   "simulator": ["xplane"],
-  "author": "cockpitflow",
+  "contributors": ["cockpitflow"],
   "description": "WiFi radio panel with COM/NAV encoders and 7-segment displays for a Cessna 172.",
   "device_profile": "esp32-radio-panel",
   "aircraft_profile": "cessna-172-skyhawk",

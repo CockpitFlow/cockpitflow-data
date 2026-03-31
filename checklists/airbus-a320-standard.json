@@ -1,8 +1,9 @@
 {
+  "id": "airbus-a320-standard",
   "id": "airbus-a320",
   "name": "Airbus A320neo",
   "simulator": ["xplane"],
-  "author": "CockpitFlow Community",
+  "contributors": ["CockpitFlow Community"],
   "version": "1.0",
   "category": "Narrowbody",
   "phases": [

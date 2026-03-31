@@ -1,10 +1,11 @@
 {
+  "id": "mega-cessna172",
   "$schema": "mapping",
   "version": 1,
   "id": "mega-cessna172-full",
   "name": "Arduino Mega → Cessna 172 (Full Setup)",
   "simulator": ["xplane"],
-  "author": "cockpitflow",
+  "contributors": ["cockpitflow"],
   "description": "Complete mapping for a Cessna 172 cockpit built with an Arduino Mega. Covers switches, encoders, pots, and indicator LEDs.",
   "device_profile": "arduino-mega-cockpit",
   "aircraft_profile": "cessna-172-skyhawk",
