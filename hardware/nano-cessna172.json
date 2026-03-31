@@ -3,7 +3,7 @@
   "version": 1,
   "id": "nano-cessna172-basic",
   "name": "Arduino Nano → Cessna 172 (Basic)",
-  "simulator": "xplane",
+  "simulator": ["xplane"],
   "author": "community",
   "description": "Basic cockpit mapping: throttle, mixture, flaps, battery, lights.",
   "device_profile": "arduino-nano-basic",

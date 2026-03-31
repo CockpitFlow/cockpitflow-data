@@ -26,7 +26,7 @@
       "author": "CockpitFlow",
       "version": "1.0",
       "aircraft": "C172S",
-      "simulator": "both",
+      "simulator": ["xplane", "msfs"],
       "tags": ["GA", "single-engine", "piston"],
       "file": "checklists/cessna-172.json",
       "description": "Complete checklist for the Cessna 172S. 15 phases, 89 items. Auto-detect for X-Plane and MSFS."
@@ -38,7 +38,7 @@
       "author": "CockpitFlow Community",
       "version": "1.0",
       "aircraft": "B744",
-      "simulator": "both",
+      "simulator": ["xplane", "msfs"],
       "tags": ["heavy", "four-engine", "jet"],
       "file": "checklists/boeing-747.json",
       "description": "Full checklist for the Boeing 747-400. 12 phases from cockpit prep to shutdown."
@@ -50,7 +50,7 @@
       "author": "CockpitFlow Community",
       "version": "1.0",
       "aircraft": "A20N",
-      "simulator": "both",
+      "simulator": ["xplane", "msfs"],
       "tags": ["narrowbody", "twin-engine", "jet", "fly-by-wire"],
       "file": "checklists/airbus-a320.json",
       "description": "Complete A320neo checklist. 16 phases including FMGC setup and Airbus-specific flows."
@@ -62,7 +62,7 @@
       "author": "CockpitFlow",
       "version": "2.0",
       "aircraft": "C172S",
-      "simulator": "both",
+      "simulator": ["xplane", "msfs"],
       "tags": ["GA", "touch", "gyro"],
       "file": "cockpit/cessna-172.json",
       "description": "Full cockpit layout: throttle quadrant, yoke (touch + gyro), gauges, switches. 12x8 grid."
@@ -74,7 +74,7 @@
       "author": "CockpitFlow",
       "version": "1.0",
       "aircraft": "C172S",
-      "simulator": "both",
+      "simulator": ["xplane", "msfs"],
       "tags": ["arduino", "mega", "serial"],
       "file": "hardware/mega-cessna172.json",
       "description": "Complete pin mapping for Arduino Mega 2560. Throttle, mixture, switches, encoders."
@@ -86,7 +86,7 @@
       "author": "CockpitFlow",
       "version": "1.0",
       "aircraft": "C172S",
-      "simulator": "both",
+      "simulator": ["xplane", "msfs"],
       "tags": ["esp32", "wifi", "radio"],
       "file": "hardware/esp32-radio-cessna172.json",
       "description": "WiFi radio panel with encoders for COM/NAV frequency tuning."
@@ -98,7 +98,7 @@
       "author": "CockpitFlow",
       "version": "1.0",
       "aircraft": "C172S",
-      "simulator": "both",
+      "simulator": ["xplane", "msfs"],
       "tags": ["arduino", "nano", "serial", "compact"],
       "file": "hardware/nano-cessna172.json",
       "description": "Compact pin mapping for Arduino Nano. Basic switches and potentiometers."

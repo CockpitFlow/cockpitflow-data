@@ -1,7 +1,7 @@
 {
   "id": "airbus-a320",
   "name": "Airbus A320neo",
-  "simulator": "xplane",
+  "simulator": ["xplane"],
   "author": "CockpitFlow Community",
   "version": "1.0",
   "category": "Narrowbody",

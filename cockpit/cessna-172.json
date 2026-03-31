@@ -1,6 +1,6 @@
 {
   "name": "Cessna 172S Skyhawk",
-  "simulator": "xplane",
+  "simulator": ["xplane"],
   "author": "CockpitFlow",
   "aircraft": "C172S",
   "version": 2,
